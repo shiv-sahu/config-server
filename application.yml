@@ -5,4 +5,5 @@ eureka:
     service-url: {http://localhost:8761/eureka/}
   instance:
     hostname: localhost
-greeting.message: refresh property from github
+greeting.message: newly refresh property from github
+api.name: push api
