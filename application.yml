@@ -2,7 +2,7 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
-    service-url: {http://localhost:9000/eureka/}
+    service-url: {http://localhost:8761/eureka/}
   instance:
     hostname: localhost
 management:
@@ -11,3 +11,4 @@ management:
       exposure:
         include:
         - '*'
+greeting.message: Externalized properties example
