@@ -2,13 +2,6 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
-    service-url: {http://localhost:87622/eureka/}
+    service-url: {http://localhost:8761/eureka/}
   instance:
     hostname: localhost
-management:
-  endpoints:
-    web:
-      exposure:
-        include:
-        - '*'
-app.greeting: hello
