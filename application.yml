@@ -5,7 +5,7 @@ eureka:
     service-url: {http://localhost:8761/eureka/}
   instance:
     hostname: localhost
-greeting.message: Hello from application.yml in Github
+greeting.message: Good morning all
 spring:
   cloud:
     config:
