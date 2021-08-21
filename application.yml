@@ -6,3 +6,7 @@ eureka:
   instance:
     hostname: localhost
 greeting.message: Hello from application.yml in Github
+spring:
+  cloud:
+    config:
+      override-none: true
