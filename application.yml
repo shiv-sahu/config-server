@@ -6,3 +6,11 @@ eureka:
   instance:
     hostname: localhost
 greeting.message: Good morning from application.yml
+spring:
+  main:
+    banner-mode: off
+  datasource:
+    url: jdbc:mysql://10.10.5.60:3306/dtdc_ctbs_plus
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: dtdc
+    password: permit
