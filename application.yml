@@ -6,9 +6,3 @@ eureka:
   instance:
     hostname: localhost
 greeting.message: Good morning all
-spring:
-  cloud:
-    config:
-      allow-override: false
-      override-none: true
-      override-system-properties: false
