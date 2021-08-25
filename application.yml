@@ -8,7 +8,7 @@ eureka:
 greeting.message: Hello from common application.yml
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/test
+    url: jdbc:mysql://10.10.5.60:3306/dtdc_ctbs_plus
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: test
-    password: test
+    username: dtdc
+    password: permit
